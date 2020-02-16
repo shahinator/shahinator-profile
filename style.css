@@ -45,6 +45,29 @@ body {
   line-height: 22px;
 }
 
+.main-area .download {
+  position: fixed;
+  right: 0px;
+  bottom: 10px;
+  width: 130px;
+  transition: all 0.3s ease-in-out;
+}
+.main-area .download a {
+  background: #30B0FB;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+.main-area .download a:hover {
+  transition: all 0.3s ease-in-out;
+}
+.main-area .profile {
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
 .main-area .profile a {
   display: block;
 }
@@ -52,9 +75,9 @@ body {
   border-radius: 100%;
   height: 120px;
   width: 120px;
-  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 1px 3px 1px rgba(60, 64, 67, 0.149);
+  box-shadow: 0 1px 2px 0 rgba(48, 176, 251, 0.302), 0 1px 3px 1px rgba(48, 176, 251, 0.149);
   padding: 3px;
-  margin: 10px 0;
+  margin: 0 0 10px 0;
 }
 .main-area .profile-informations h2 {
   font-family: "Poppins", sans-serif;
@@ -91,15 +114,57 @@ body {
 .main-area .profile-informations ul li:last-child {
   border: none;
 }
+.main-area .core-qualifications {
+  margin-bottom: 10px;
+}
 .main-area .core-qualifications .name {
-  background: #f1f1f1;
+  background: #ddd;
 }
 .main-area .core-qualifications .name h4 {
-  font-size: 14px;
+  font-size: 16px;
   margin: 0;
   padding: 10px;
-  font-weight: 700;
+  font-weight: 900;
+  color: #000;
 }
 .main-area .core-qualifications .core-list ul {
   margin: 7px 0 0 -13px;
+}
+.main-area .core-qualifications .core-list h6 {
+  margin: 15px 0 0px 15px;
+  font-size: 13px;
+  font-weight: 300;
+}
+.main-area .core-qualifications .core-list h6 strong {
+  font-weight: 700;
+}
+.main-area .core-qualifications .company-list {
+  margin: 15px 0 0px 15px;
+}
+.main-area .core-qualifications .company-list h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+}
+.main-area .core-qualifications .company-list h3 span {
+  float: right;
+  font-weight: 100;
+}
+.main-area .core-qualifications .company-list h6 {
+  font-size: 13px;
+  font-weight: 600;
+  color: #000;
+  position: relative;
+}
+.main-area .core-qualifications .company-list h6 strong {
+  font-weight: 100;
+  display: block;
+  margin: 5px 0;
+  font-size: 11px;
+}
+.main-area .core-qualifications .company-list h6 span {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-weight: 600;
 }
