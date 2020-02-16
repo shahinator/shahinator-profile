@@ -1,0 +1,105 @@
+a {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+a:hover {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.section-title h4 {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  position: relative;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+}
+.section-title h4::after {
+  position: absolute;
+  left: 0;
+  content: "";
+  bottom: -10px;
+  background: #30B0FB;
+  height: 2px;
+  width: 100px;
+  right: 0;
+  margin: 0 auto;
+}
+.section-title h2 {
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+  letter-spacing: -3px;
+}
+.section-title h2 span {
+  color: #30B0FB;
+}
+
+body {
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.main-area .profile a {
+  display: block;
+}
+.main-area .profile a img {
+  border-radius: 100%;
+  height: 120px;
+  width: 120px;
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 1px 3px 1px rgba(60, 64, 67, 0.149);
+  padding: 3px;
+  margin: 10px 0;
+}
+.main-area .profile-informations h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  color: #000;
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+.main-area .profile-informations span {
+  font-family: "Poppins", sans-serif;
+  color: #444;
+  font-size: 14px;
+}
+.main-area .profile-informations ul {
+  padding: 8px 0;
+  list-style: none;
+  margin: 0;
+}
+.main-area .profile-informations ul li {
+  display: inline-block;
+  padding: 0 10px;
+  border-right: 1px solid #f1f1f1;
+  font-size: 13px;
+  color: #000;
+}
+.main-area .profile-informations ul li a {
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+.main-area .profile-informations ul li a:hover {
+  color: #30B0FB;
+  transition: all 0.3s ease-in-out;
+}
+.main-area .profile-informations ul li:last-child {
+  border: none;
+}
+.main-area .core-qualifications .name {
+  background: #f1f1f1;
+}
+.main-area .core-qualifications .name h4 {
+  font-size: 14px;
+  margin: 0;
+  padding: 10px;
+  font-weight: 700;
+}
+.main-area .core-qualifications .core-list ul {
+  margin: 7px 0 0 -13px;
+}

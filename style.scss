@@ -1,0 +1,123 @@
+$priamry-color: #30B0FB;
+$transition: all .3s ease-in-out;
+$body-font: 'Open Sans', sans-serif;
+$title-font: 'Poppins', sans-serif;
+// reset template
+a{
+    text-decoration: none;
+    transition: $transition;
+    &:hover{
+        text-decoration: none;
+        transition: $transition;
+    }
+}
+
+.section-title{
+    h4{
+        font-size: 20px;
+        font-family: $title-font;
+        font-weight: bold;
+        position: relative;
+        text-transform: uppercase;
+        padding-bottom: 5px;
+        margin-bottom: 30px;
+        &::after{
+            position: absolute;
+            left: 0;
+            content: "";
+            bottom: -10px;
+            background: $priamry-color;
+            height: 2px;
+            width: 100px;
+            right: 0;
+            margin: 0 auto;
+        }
+    }
+    h2{
+        font-size: 60px;
+        font-weight: bold;
+        font-family: $title-font;
+        color: #000;        
+        letter-spacing: -3px;
+        span{
+            color: $priamry-color;
+        }
+    }
+}
+
+
+body{
+    color: #333;
+    font-family: $body-font;
+    font-size: 12px;
+    line-height: 22px;    
+}
+.main-area{
+    .profile{
+        a{
+            display: block;
+            img{
+                border-radius: 100%;
+                height: 120px;
+                width: 120px;
+                box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 1px 3px 1px rgba(60, 64, 67, 0.149);
+                padding: 3px;
+                margin: 10px 0;
+            }
+        }
+    }
+    .profile-informations{
+        h2{
+            font-family: $title-font;
+            font-weight: 800;
+            color: #000;
+            font-size: 24px;
+            margin-bottom: 0px;       
+        }
+        span{
+            font-family: $title-font;
+            color: #444;
+            font-size: 14px;
+        }
+        ul{
+            padding: 8px 0;
+            list-style: none;
+            margin: 0;
+            li{
+                display: inline-block;
+                padding: 0 10px;
+                border-right: 1px solid #f1f1f1;
+                font-size: 13px;
+                color: #000;
+                a{
+                    color: #000;
+                    transition: $transition;
+                    &:hover{
+                        color: $priamry-color;
+                        transition: $transition;
+                    }
+                }
+                &:last-child{
+                    border: none;
+                }
+
+            }
+        }
+    }
+    .core-qualifications{
+        .name{
+            background: #f1f1f1;
+            h4{
+                font-size: 14px;
+                margin: 0;
+                padding: 10px;
+                font-weight: 700;
+            }
+        }
+        .core-list{
+            ul{
+                margin: 7px 0 0 -13px;
+            }
+        }
+    }
+}
