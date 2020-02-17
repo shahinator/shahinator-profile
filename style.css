@@ -168,3 +168,83 @@ body {
   top: 0;
   font-weight: 600;
 }
+
+nav ul {
+  padding: 8px 0;
+  list-style: none;
+  margin: 0;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  padding: 0 10px;
+  border-right: 1px solid #f1f1f1;
+  color: #000;
+}
+nav ul li a {
+  color: #000;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  text-transform: capitalize;
+}
+nav ul li a:hover {
+  color: #30B0FB;
+  transition: all 0.3s ease-in-out;
+}
+nav ul li:last-child {
+  border: none;
+}
+
+.inner-content ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.inner-content ul li {
+  margin: 15px 0;
+  padding: 15px 0;
+  border-top: 1px dashed #ccc;
+}
+.inner-content ul li .single-blog h3 {
+  margin: 0 0 5px;
+}
+.inner-content ul li .single-blog h3 a {
+  font-weight: 700;
+  font-size: 14px;
+  color: #000;
+}
+.inner-content ul li .single-blog span {
+  font-size: 10px;
+  display: block;
+  margin-bottom: 10px;
+}
+.inner-content ul li .single-blog p {
+  margin-bottom: 10px;
+}
+.inner-content ul li .single-blog .categories {
+  margin-top: 25px;
+}
+.inner-content ul li .single-blog .categories h6 {
+  margin: 0 0px;
+  font-weight: 700;
+  font-size: 13px;
+  color: #000;
+  position: relative;
+  padding-left: 50px;
+}
+.inner-content ul li .single-blog .categories h6 i {
+  color: #30B0FB;
+  font-size: 30px;
+  position: absolute;
+  left: 0;
+  top: -6px;
+  transform: rotate(90deg);
+}
+.inner-content ul li .single-blog .categories h6 a {
+  font-weight: 400;
+  color: #fff;
+  padding: 5px 10px;
+  background: #30B0FB;
+  border-radius: 25px;
+}
